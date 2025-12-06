@@ -1,0 +1,17 @@
+body {
+    background-color: darkgray;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    height: 600px;
+    flex-wrap: wrap;
+    background-color: cadetblue;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}

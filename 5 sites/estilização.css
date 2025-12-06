@@ -1,0 +1,70 @@
+body {
+    background-color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(202, 86, 86);
+    color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+header a{
+color: #cccbcb;
+ text-decoration: none;
+ background-color: rgb(136, 107, 70);
+ padding: 5px 20px;
+ border-radius: 100;
+}
+header a:hover{
+    background-color: rgb(138, 114, 83);
+}
+
+h1{
+    margin: 0 0 10px 0 ; 
+    /* so botar zero q ele entende. top, right botton left(em ordem) */
+    /* margin: 20px 0; */
+    /* margin-bottom: 10px; */
+}
+main{
+    padding: 16px;
+}
+section{
+    background-color: #e6e3e3;
+    padding: 16px;
+    border-radius: 10;
+    margin: 10px 0;
+}
+section h2{
+    border-bottom: 2px solid rgb(110, 91, 66) ;
+}
+input, textarea, select{
+    width: 99%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+form button{
+    background-color: rgb(196, 108, 108);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10;
+}
+form button{
+    background-color: rgb(138, 114, 83);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    /* IMPORTANTE ^ */
+}
+form button:hover{
+    background-color: rgb(168, 95, 95);
+}
+/*  control+ 2 ponto faz isso */
+/* Para referenciar ID é com # */
+#exemploid {
+    background-color: darkgray;
+}

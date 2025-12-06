@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+
+<body>
+    
+
+</body>
+<script>
+    let idade = 18;      
+let nome = "Ana";        
+let aprovado = true;     
+let endereco = null;      
+let telefone;            
+  
+console.log(typeof idade);  
+console.log(idade);     
+console.log(typeof nome);  
+console.log(typeof aprovado); 
+console.log(idade);      
+</script>
+
+</html>

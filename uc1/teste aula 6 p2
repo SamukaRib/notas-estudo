@@ -1,0 +1,21 @@
+<html>
+<body>  
+  <h1>Lista de números</h1>  
+  <ul id="lista"></ul>  
+  
+  <script>  
+    let maximo = Number(prompt("Digite até que número você deseja"));
+    let tag = document.getElementsById("Lista");
+    for (let x=2; x <=x; x++) {
+    tag.innerHTML += "<li>Número" + x + "</li>";
+    }
+    function isPar(número){
+  
+      if((numero % 2) == 0) 
+      return true;
+    else
+    return false;
+    }
+  </script>  
+</body>  
+</html>
